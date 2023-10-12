@@ -44,16 +44,22 @@ $ npm install npm@latest -g
 ```bash
 # Clone the repository
 $ git clone git@github.com:wctseng99/Mapin.git && cd Mapin
-# Install NPM packages
-$ npm install
-# Create .env file in frontend folder and and enter your Mapbox API key.
-$ REACT_APP_MAPBOX = your_mapbox_api_key
-# Create .env file in backend folder and and enter your MongoDB API key.
-$ MONGODB_URI = your_mongodb_uri
+
+# Install NPM packages in both frontend and backend folders
+$ cd frontend && npm install
+$ cd ../backend && npm install
+
+# Create .env file in frontend folder and enter your Mapbox API key.
+$ echo "REACT_APP_MAPBOX=your_mapbox_api_key" > frontend/.env
+
+# Create .env file in backend folder and enter your MongoDB API key and database connection URI.
+$ echo "MONGODB_URI=your_mongodb_uri" > backend/.env
+
 ```
 
 ### Usage
 ```bash
 # Run the app
-$ npm start
+$ cd frontend ;npm start
+$ cd backend ;npm start
 ```
