@@ -31,7 +31,7 @@ export default function Login({ setShowLogin, myStorage, setCurrentUser }) {
   return (
     <div className="loginContainer">
       <div className="logo">
-        <RoomIcon /> MaPin
+        <RoomIcon /> Mapin
       </div>
       <form onSubmit={handleSubmit}>
         <input type="text" placeholder="Username" ref={nameRef} />
