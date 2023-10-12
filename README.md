@@ -32,7 +32,6 @@ $ MONGODB_URI = your_mongodb_uri
 
 ### Usage
 ```bash
-# Run the app
 $ npm start
 ```
 
