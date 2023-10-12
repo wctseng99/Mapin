@@ -1,5 +1,5 @@
 # About The Project
-Mapin is the website that allows users to share their favorite places with others.
+Mapin is the App that allows users to share their favorite places with others.
 
 ## Built with
 - [React.js](https://reactjs.org/)
