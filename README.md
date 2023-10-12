@@ -27,7 +27,7 @@
 #### The blue pins represent the places that other users have shared. The red pin represents the place that you have shared.
 ![comment.png](./readme_img/comment.png)
 
-#### When you click the map, you can share the place you like.
+#### When you double click the map, you can share the place you like.
 ![share.png](./readme_img/share.png)
 
 
