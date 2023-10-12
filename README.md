@@ -60,6 +60,6 @@ $ echo "MONGODB_URI=your_mongodb_uri" > backend/.env
 ### Usage
 ```bash
 # Run the app
-$ cd frontend ; npm start
-$ cd backend ; npm start
+$ cd frontend && npm start
+$ cd backend && npm start
 ```
