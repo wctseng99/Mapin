@@ -34,7 +34,7 @@
 ## Getting Started
 
 ### Prerequisites
-- npm
+- [npm](https://www.npmjs.com/)
 ```bash
 $ npm install npm@latest -g
 ```
