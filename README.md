@@ -16,19 +16,19 @@
 
 ## Demo
 #### Register to create an account.
-![register.png](register.png)
+![register.png](./readme_img/register.png)
 
 #### Login to your account.
-![login.png](login.png)
+![login.png](./readme_img/login.png)
 
 #### When you click the pin, you can see the place's name, description, rating, and the user who shared it.
-![pin.png](pin.png)
+![pin.png](./readme_img/pin.png)
 
 #### The blue pins represent the places that other users have shared. The red pin represents the place that you have shared.
-![comment.png](comment.png)
+![comment.png](./readme_img/comment.png)
 
 #### When you click the map, you can share the place you like.
-![share.png](share.png)
+![share.png](./readme_img/share.png)
 
 
 ## Getting Started
