@@ -1,4 +1,7 @@
-# Mapin
-Mapin is the website built with MERN Stack (MongoDB, Express.js, React.js, and Node.js) with Mapbox API that allows users to share their favorite places with others.
+# About The Project
+Mapin is the website that allows users to share their favorite places with others.
+
+## Built with
+[![My Skills](https://skillicons.dev/icons?i=js,html,css,nodejs,mongodb,react,express)](https://skillicons.dev)
 
 ## Demo
