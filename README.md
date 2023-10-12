@@ -18,7 +18,7 @@
 ![register.png](register.png)
 
 #### Login to your account.
-![login.png](login.png)
+![login.png](logIn.png)
 
 #### When you click the pin, you can see the place's name, description, rating, and the user who shared it.
 ![comment.png](comment.png)
