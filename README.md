@@ -14,19 +14,19 @@
 
 
 ## Demo
-- Register to create an account.
+#### Register to create an account.
 ![register.png](register.png)
 
-- Login to your account.
-- ![login.png](login.png)
+#### Login to your account.
+![login.png](login.png)
 
- - When you click the pin, you can see the place's name, description, rating, and the user who shared it.
+#### When you click the pin, you can see the place's name, description, rating, and the user who shared it.
 ![comment.png](comment.png)
 
-- The blue pins represent the places that other users have shared. The red pin represents the place that you have shared.
+#### The blue pins represent the places that other users have shared. The red pin represents the place that you have shared.
 ![pin.png](pin.png)
 
-- When you click the map, you can share the place you like.
+#### When you click the map, you can share the place you like.
 ![share.png](share.png)
 
 
