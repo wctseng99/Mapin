@@ -11,7 +11,8 @@
 - [MongoDB](https://www.mongodb.com/)
 - [Node.js](https://nodejs.org/en/)
 - [Mapbox](https://www.mapbox.com/)
-
+  
+[![My Skills](https://skillicons.dev/icons?i=js,html,css,react,express,mongodb,nodejs&theme=light)](https://skillicons.dev)
 
 ## Demo
 #### Register to create an account.
@@ -21,10 +22,10 @@
 ![login.png](login.png)
 
 #### When you click the pin, you can see the place's name, description, rating, and the user who shared it.
-![comment.png](comment.png)
+![pin.png](pin.png)
 
 #### The blue pins represent the places that other users have shared. The red pin represents the place that you have shared.
-![pin.png](pin.png)
+![comment.png](comment.png)
 
 #### When you click the map, you can share the place you like.
 ![share.png](share.png)
