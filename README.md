@@ -1,5 +1,3 @@
-# Mapin
-
 ## About The Project
 
 ### Mapin is the App that allows users to share their favorite places with others.
