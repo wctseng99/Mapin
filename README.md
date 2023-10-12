@@ -24,7 +24,7 @@
 #### When you click the pin, you can see the place's name, description, rating, and the user who shared it.
 ![pin.png](./readme_img/pin.png)
 
-#### The blue pins represent the places that other users have shared. The red pin represents the place that you have shared.
+#### The blue pins represent the places that other users have shared. The red pin represents yours.
 ![comment.png](./readme_img/comment.png)
 
 #### When you double click the map, you can share the place you like.
