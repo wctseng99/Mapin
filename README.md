@@ -2,8 +2,7 @@
 
 ### Mapin is the App that allows users to share their favorite places with others.
 
-
-![Mapin App](./readme_img/demo_mapin.gif)
+![cover.png](./readme_img/cover.png)
 
 ## Built with
 
@@ -16,6 +15,7 @@
 [![My Skills](https://skillicons.dev/icons?i=js,html,css,react,express,mongodb,nodejs&theme=light)](https://skillicons.dev)
 
 ## Demo
+
 #### Register to create an account.
 ![register.png](./readme_img/register.png)
 
@@ -31,6 +31,8 @@
 #### When you double click the map, you can share the place you like.
 ![share.png](./readme_img/share.png)
 
+### Demo Video
+![Mapin App](./readme_img/demo_mapin.gif)
 
 ## Getting Started
 
