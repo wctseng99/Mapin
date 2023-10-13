@@ -3,7 +3,7 @@
 ### Mapin is the App that allows users to share their favorite places with others.
 
 
-![Mapin App](./readme_img/maping_demo.gif)
+![Mapin App](./readme_img/demo.gif)
 
 ## Built with
 
