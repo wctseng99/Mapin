@@ -16,9 +16,6 @@
 
 ## Demo
 
-### Demo Video
-![Mapin App](./readme_img/demo_mapin.gif)
-
 #### Register to create an account.
 ![register.png](./readme_img/register.png)
 
@@ -34,6 +31,8 @@
 #### When you double click the map, you can share the place you like.
 ![share.png](./readme_img/share.png)
 
+### Demo Video
+![Mapin App](./readme_img/demo_mapin.gif)
 
 ## Getting Started
 
