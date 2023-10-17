@@ -20,10 +20,11 @@ router.post("/register", async (req, res) => {
 
         // save user and return response
         const user = await newUser.save();
-        return res.status(200).json(user._id);
+        res.status(200).json(user._id);
 
     } catch (err) {
-        return res.status(500).json(err);
+        console.log(err);
+        res.status(500).json(err);
     }
 });
 
@@ -33,22 +34,22 @@ router.post("/login", async (req, res) => {
     try{
         // find user
         const user = await User.findOne({ username: req.body.username });
-        !user && res.status(400).json("Wrong username or password!");
+        if (!user){
+            return res.status(400).json("Wrong username or password!");
+        }
 
         // validate password
         const validPassword = await bcrypt.compare(req.body.password, user.password);
-        !validPassword && res.status(400).json("Wrong username or password!");
+        if (!validPassword){
+            return res.status(400).json("Wrong username or password!");
+        }
 
         // return response
-        return res.status(200).json({ _id: user._id, username: user.username });
+        res.status(200).json({ _id: user._id, username: user.username });
         
     }catch(err){
-        return res.status(500).json(err);
+        res.status(500).json(err);
     }
-});
-
-router.get("/", (req, res) => {
-    res.send("Hey its user route");
 });
 
 module.exports = router;

@@ -7,9 +7,9 @@ router.post("/", async (req, res) => {
   const newPin = new Pin(req.body);
   try {
     const savedPin = await newPin.save();
-    return res.status(200).json(savedPin);
+    res.status(200).json(savedPin);
   } catch (err) {
-    return res.status(500).json(err);
+    res.status(500).json(err);
   }
 });
 
@@ -18,9 +18,9 @@ router.post("/", async (req, res) => {
 router.get("/", async (req, res) => {
     try {
         const pins = await Pin.find();
-        return res.status(200).json(pins);
+        res.status(200).json(pins);
     } catch (err) {
-        return res.status(500).json(err);
+        res.status(500).json(err);
     }
 });
 
